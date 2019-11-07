@@ -814,7 +814,7 @@ class Board(object):
         del bullets[:]
         del mob_gate[:]
 
-    def remake(self, rows, collumns, startX=0, startY=0, roomW = 500, roomH = 500, thick = 20, level_up = 0):
+    def remake(self, rows, collumns, startX=0, startY=0, roomW = 500, roomH = 500, thick = 20, level_up = 99):
         self.rows = rows
         self.collumns = collumns
         self.startX = startX
